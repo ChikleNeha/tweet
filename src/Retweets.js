@@ -7,9 +7,13 @@ export default function Retweets(){
   const newData = data.map( item => <ReImages url = {item.url} />)
 
   return (
-    <div className="retweets--like--images">
-      <p><b>3</b>Retweets <b>7</b>Likes</p>
-      {newData}
-    </div>
+    
+    <div>
+        <div className="retweets--like--images">
+            <p className="avatar"><b style={{color : "black"}}>3 </b>Retweets <b style={{color : "black"}}>7</b> Likes</p>
+            {newData}
+        </div>
+        <div><hr /></div>
+  </div>
   )
 }

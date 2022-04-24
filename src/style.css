@@ -1,3 +1,68 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+.name {
+  display: flex;
+  height: 40px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.id h3 {
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: -5px;
+  margin-left: 15px;
+}
+
+.id span {
+  font-size: 10px;
+  color: grey;
+  margin-left: 15px;
+}
+
+button {
+  background: #2a9df4;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  width: 100px;
+  height: 31px;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+#dp {
+   margin-top: 8px;
+}
+
+.time {
+  margin-top: 8px;
+  color: grey;
+  font-size: 10px;
+}
+
+.retweets--like--images {
+  font-size: 12px;
+  display: flex;
+  margin-left: 5px;
+  align-items: center;
+  gap: 9px;
+  color: rgb(99, 99, 99);
+  margin-bottom: -20px;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+hr {
+  margin-top: 18px;
+  width: 500px;
+  background-color: rgb(173, 173, 173);
+  color: rgb(173, 173, 173);
+  margin-bottom: 4px;
+}
