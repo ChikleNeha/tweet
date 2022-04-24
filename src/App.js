@@ -7,11 +7,11 @@ import Endbar from './Endbar';
 
 export default function App() {
   return (
-    <div>
-      <Name />
-      <Image />
-      <Retweets />
-      <Endbar />
+    <div className="component">
+      <Name className="c1"/>
+      <Image className="c1" />
+      <Retweets className="c1" />
+      <Endbar className="c1" />
     </div>
   );
 }
